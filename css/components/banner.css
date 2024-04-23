@@ -1,0 +1,28 @@
+h1, h2, h3, h4, p {
+  margin: none;
+}
+
+.banner{
+  background-image: url('https://images.unsplash.com/photo-1713309423847-ba0fccfb8632?q=80&w=3074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  height: 500px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text {
+  margin-left: 50px;
+}
+
+.banner-text p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.banner-text a {
+  background-color: palevioletred;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
